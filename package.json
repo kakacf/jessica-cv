@@ -1,10 +1,10 @@
 {
   "name": "jessica-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cp -rf dist docs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
