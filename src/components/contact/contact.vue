@@ -19,7 +19,6 @@
                     <ul class="contact__ul">
                         <li class="contact__li" @click="sendEmail">{{ info.email }}</li>
                         <li class="contact__li"><a :href="`tel:${info.phone}`">{{ info.phone }}</a></li>
-                        <li class="contact__li"><a href="https://github.com/kakacf">{{ info.github }}</a></li>
                     </ul>
                 </div>
             </div>

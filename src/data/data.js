@@ -13,7 +13,14 @@ const info = {
 const me = {
   heading: 'me',
   content:
-    'I come from a beautiful harbor city Kaohsiung. I was graduated from National Chiao Tung University and majoring in Cancer Biology.I am quite a fast-learner and adapt well to different environment, no matter what the challenges might be awaiting ahead of me. In my leisure time, I would love to explore new techniques and skills and traveling. Cooking and baking will always be my favorite hobbies when at home.',
+    `As a frontend developer, I collaborate with UI/UX designer, PM and backend developer to develop a dialysis system using AngularJS and Angular. I make sure every piece of code that I write is readable and maintainable.
+    \r\n
+    My role is to handle all the ui interface, integrate backend APIs, ensuring websites are accessible across many platforms (laptops and smartphones).
+    Our mobile system also provides bluetooth, NFC and scan barcodes in frontend. I can easily and efficiently communicate with colleagues who are on the customer side, to solve those mobile device problems.
+    Because the Angular framework has more efficiency, I rewrote the AngularJS code with the new framework on some features.
+    Nowadays user experience is an important part of the frontend development. I always proactively communicate with the PM and make it better.
+    I work with chariness and responsibility, no matter what the challenges might be awaiting ahead of me, I will make my best efforts to resolve them.
+    `
 };
 
 const work = {
@@ -26,7 +33,7 @@ const work = {
       contents: {
         // 提供醫療人員居家訪視之排班接單紀錄功能，訪視時提供病患住家定位服務，訪視完畢記錄病情簽名等功能。
         'Homedical (醫生到我家)：': 'AngularJS, HTML, CSS, Firebase',
-        'Dialysis System：': 'AngularJS, HTML, CSS, MongoDB, ECharts' // 血液透析系統：
+        'Dialysis System：': 'Angular, AngularJS, HTML, CSS, MongoDB, ECharts, Bootstrap'
       }
     },
     {
@@ -41,7 +48,7 @@ const work = {
     },
     {
       title: 'Research Assistant',
-      company: 'Academia Sinica, NCGM', // '中央研究院 基因體中心',
+      company: 'Academia Sinica, NCGM', // '中央研究院 基因體中心'
       year: 'Jun.2014 - Apr.2016',
       contents: {
         '': 'As research assistant, it has allowed me to fully utilized my analytical and quantitative reasoning that have been taught during my study. The reserch of circulating tumor cells (CTCs) can improve the prognosis of cancer stages. This technique is successfully transferred to a company (CellMax Life). Due to my proficiency in this technique, I assisted them to set up the CTCs detection system.'// 'The reserch of circulating tumor cells (CTCs)', // 循環腫瘤細胞偵測相關研究
@@ -97,7 +104,10 @@ const skill = {
     'javascript-48',
     'firebase-48',
     'angularjs-48',
-    'vuejs-48'
+    'vuejs-48',
+    'bootstrap-48',
+    'angular-48',
+    'sass-48'
   ]
 };
 
@@ -107,7 +117,8 @@ const project = {
     {
       projectName: 'Homedical 醫生到我家 | Web / App',
       projectImage: 'homedical.png',
-      projectContent: 'Homedical 是一個 "居家照護醫療" 系統。Web 部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。醫療院所使用 Web 版的中心管理後台，約診、排班、派單給醫療人員，全方位掌控醫療人員出勤狀況，地圖定位，所有病情資料的紀錄等功能。醫療人員則使用手機版 App ，提供定位、撥電話、接單、病情紀錄、簽名、行事曆等功能。全系統使用Firebase做資料庫使用。',
+      projectContent: 'Homedical is a system providing patients to see a doctor at home. We have two applications (web and mobile). The web application offers the medical experts to manage the members’ data or assign shifts to the doctors. The mobile application is for doctors to check the shifts, to contact the patients. It can also show the patient’s location, offer doctors to write the medical records, and so on. This system develops only by frontend, and using firebase as our database.',
+      // projectContent: 'Homedical 是一個 "居家照護醫療" 系統。Web 部分：醫療人員個人管理後台、營運中心管理後台。App部分：醫療人員操作介面。醫療院所使用 Web 版的中心管理後台，約診、排班、派單給醫療人員，全方位掌控醫療人員出勤狀況，地圖定位，所有病情資料的紀錄等功能。醫療人員則使用手機版 App ，提供定位、撥電話、接單、病情紀錄、簽名、行事曆等功能。全系統使用Firebase做資料庫使用。',
       isImgLeft: true,
     },
     {
@@ -150,7 +161,7 @@ const contact = {
     message: 'Please feel free to contact me.',
     email: 'chienfang0611@gmail.com',
     phone: '+886933302134',
-    github: 'GitHub'
+    // github: 'GitHub'
 };
 
 const projectImg = {

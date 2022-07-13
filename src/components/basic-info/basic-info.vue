@@ -1,28 +1,25 @@
 <template>
-    <div>
-        <b-container fluid id="id-basicInfo" >
-            <img class="background-img" src="../../assets/image/british-museum2.jpg">
-            <img class="rounded-circle img-fluid avatar-img" src="../../assets/image/avatar2.jpg">
-            <!-- <p class="subTitle" v-once>{{ info.job }}</p> -->
-            <p class="title" v-once>Hello, I am {{ info.name }}</p>
-            <p class="subTitle" v-once>{{ info.job }}</p>
-        </b-container> 
-    </div>
+        <div>
+            <b-container fluid id="id-basicInfo">
+                <div class="info">
+                    <div class="info__photo">
+                        <img class="info__photo-img rounded-circle" src="../../assets/image/avatar2.jpg">
+                    </div>
+                    <div class="info__text">
+                        <div class="info__text-title" v-once>Hello, I am {{ info.name }}</div>
+                        <div class="info__text-subTitle" v-once>{{ info.job }}</div>
+                    </div>
+                </div>
+            </b-container> 
+        </div>
     <!-- <div>
         <b-container fluid id="id-basicInfo">
-                <b-row align-h="center">
-                    <b-col>
-                        <b-row align-h="center">
-                            <b-col></b-col>
-                            <b-col align-h="center">
-                                <img class="rounded-circle img-fluid avatar-img" src="../../assets/image/avatar2.jpg">
-                            </b-col>
-                            <b-col></b-col>
-                        </b-row>
-                        <p class="title" v-once>Hi, I am {{ info.name }}</p>
-                        <p class="subTitle" v-once>{{ info.job }}</p>
-                    </b-col>
-                </b-row>
+            <img class="background-img" src="../../assets/image/british-museum2.jpg">
+            <div class="text-box">
+                <img class="rounded-circle img-fluid avatar-img" src="../../assets/image/avatar2.jpg">
+                <p class="title" v-once>Hello, I am {{ info.name }}</p>
+                <p class="subTitle" v-once>{{ info.job }}</p>
+            </div>
         </b-container> 
     </div> -->
 </template>

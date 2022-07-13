@@ -11,9 +11,23 @@ export default {
         
         };
     },
-    method: {
+    methods: {
+        // textBreakline: function () {
+        //     let textWrapper = document.querySelector('#simpleMe');
+        //     console.log('AboutContent textBreakline!!!!', textWrapper.textContent);
+        //     this.content = textWrapper.textContent.replace(/\r\n/g,"<br/>");
+
+        // }
 
 
-    }
+    },
+    created() {
+        // console.log('AboutContent !!!!');
+        // this.textBreakline();
 
+    },
+    mounted() {
+        // this.textBreakline();
+        
+    },
 }

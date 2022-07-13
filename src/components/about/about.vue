@@ -17,17 +17,15 @@
 						class="b-col"
 						v-for="(experience, index) in work.experiences"
 						:key="index">
-						<div class="font-16">
+						<div class="font-18">
 							<span><b>{{ experience.title }}</b> <b class="company"> - {{ experience.company }}</b></span>
 						</div>
-						<div class="font-14">
+						<div class="font-16">
 							<span>{{ experience.year }}</span>
 						</div>
-
-						<div class="font-14" v-for="(content, key, index) in experience.contents" :key="index">
+						<div class="font-16" v-for="(content, key, index) in experience.contents" :key="index">
 							<span><b>{{ key }}</b>{{ content }}</span>
 						</div>
-						
 						<hr />
 					</div>
 						
@@ -40,18 +38,18 @@
 						<div
 							v-for="(education, index) in education.educations"
 							:key="index">
-							<div class="font-16">
+							<div class="font-18">
 								<span><b>{{ education.qualification }} - {{ education.school }}</b></span>
 							</div>
-							<div class="font-14">
+							<div class="font-16">
 								<span>{{ education.location }} {{ education.year }}</span>
 							</div>
-							<div class="font-14">
+							<div class="font-16">
 								<span>{{ education.major }}</span>
 							</div>
 							<hr v-if="!education.courses" />
 							
-							<div v-if="education.courses" class="font-14">
+							<div v-if="education.courses" class="font-16">
 								<div
 									v-for="(course, key, index) in education.courses"
 									:key="index">

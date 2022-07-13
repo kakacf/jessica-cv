@@ -19,7 +19,6 @@
                                     <!-- to="{ name: 'projectimg', params: { projectName: 'ddd' }}" -->
                                     <b-button variant="outline-info" @click="goToProjectImg(projectIndex)">More</b-button>
                                     <!-- <b-button variant="outline-info" :to="{ name: 'projectimg', params: { projectName: 'ddd' } }">Info</b-button> -->
-
                                 </b-row>
                             </b-card-text>
                         </b-card-body>
