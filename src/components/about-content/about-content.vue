@@ -14,7 +14,7 @@
                 <div class="line" ></div>
             </b-col>
             <b-col cols="11" v-if="isSimpleTpl">
-                <span>{{content}}</span>
+                <span id="simpleMe" class="font-18">{{content}}</span>
                 <p></p>
             </b-col>
             <b-col cols="11" v-if="!isSimpleTpl">
